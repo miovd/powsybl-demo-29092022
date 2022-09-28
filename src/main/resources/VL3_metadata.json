@@ -1,0 +1,1141 @@
+{
+  "components" : [ {
+    "type" : "BUSBAR_SECTION",
+    "size" : {
+      "width" : 0.0,
+      "height" : 0.0
+    },
+    "styleClass" : "sld-busbar-section"
+  }, {
+    "type" : "NODE",
+    "anchorPoints" : [ {
+      "x" : 0.0,
+      "y" : 0.0,
+      "orientation" : "NONE"
+    } ],
+    "size" : {
+      "width" : 8.0,
+      "height" : 8.0
+    },
+    "styleClass" : "sld-node"
+  }, {
+    "type" : "DISCONNECTOR",
+    "anchorPoints" : [ {
+      "x" : 0.0,
+      "y" : 0.0,
+      "orientation" : "VERTICAL"
+    } ],
+    "size" : {
+      "width" : 8.0,
+      "height" : 8.0
+    },
+    "styleClass" : "sld-disconnector"
+  }, {
+    "type" : "BUS_CONNECTION",
+    "anchorPoints" : [ {
+      "x" : 0.0,
+      "y" : 0.0,
+      "orientation" : "VERTICAL"
+    } ],
+    "size" : {
+      "width" : 8.0,
+      "height" : 8.0
+    },
+    "styleClass" : "sld-bus-connection"
+  }, {
+    "type" : "BREAKER",
+    "anchorPoints" : [ {
+      "x" : 0.0,
+      "y" : -10.0,
+      "orientation" : "VERTICAL"
+    }, {
+      "x" : 0.0,
+      "y" : 10.0,
+      "orientation" : "VERTICAL"
+    } ],
+    "size" : {
+      "width" : 20.0,
+      "height" : 20.0
+    },
+    "transformations" : {
+      "LEFT" : "ROTATION",
+      "RIGHT" : "ROTATION"
+    },
+    "styleClass" : "sld-breaker"
+  } ],
+  "nodes" : [ {
+    "id" : "idVLbbs11",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs11",
+    "labels" : [ {
+      "id" : "VLbbs11_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLbbs12",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs12",
+    "labels" : [ {
+      "id" : "VLbbs12_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLbbs13",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs13",
+    "labels" : [ {
+      "id" : "VLbbs13_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR11",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR11",
+    "labels" : [ ]
+  }, {
+    "id" : "idBUSCO_95_VLsw_95_DISCONNECTOR11",
+    "vid" : "VL",
+    "componentType" : "BUS_CONNECTION",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR32_95_1",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR32_1",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR32_95_2",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR32_2",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_BREAKER42",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_BREAKER42",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs42",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs42",
+    "labels" : [ {
+      "id" : "VLbbs42_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR21",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR21",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs43",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs43",
+    "labels" : [ {
+      "id" : "VLbbs43_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR1022",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR1022",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR922",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR922",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR1023",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR1023",
+    "labels" : [ ]
+  }, {
+    "id" : "idBUSCO_95_VLsw_95_DISCONNECTOR21",
+    "vid" : "VL",
+    "componentType" : "BUS_CONNECTION",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR120",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR120",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_23",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR22_95_2",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR22_2",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_22",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_21",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR22_95_1",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR22_1",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_20",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR521",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR521",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR721",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR721",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR320",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR320",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_BREAKER32",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_BREAKER32",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs33",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs33",
+    "labels" : [ {
+      "id" : "VLbbs33_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR9",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR9",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR8",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR8",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs31",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs31",
+    "labels" : [ {
+      "id" : "VLbbs31_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLbbs32",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs32",
+    "labels" : [ {
+      "id" : "VLbbs32_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR31",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR31",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_BREAKER",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_BREAKER",
+    "labels" : [ ]
+  }, {
+    "id" : "idBUSCO_95_VLsw_95_DISCONNECTOR31",
+    "vid" : "VL",
+    "componentType" : "BUS_CONNECTION",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR0",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR0",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs41",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs41",
+    "labels" : [ {
+      "id" : "VLbbs41_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR6",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR6",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_BREAKER22",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_BREAKER22",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_BREAKER_35_0",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "NEW_BREAKER#0",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs22",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs22",
+    "labels" : [ {
+      "id" : "VLbbs22_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR41",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR41",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLbbs23",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs23",
+    "labels" : [ {
+      "id" : "VLbbs23_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idVLbbs21",
+    "vid" : "VL",
+    "componentType" : "BUSBAR_SECTION",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLbbs21",
+    "labels" : [ {
+      "id" : "VLbbs21_NW_LABEL",
+      "positionName" : "NW_LABEL"
+    } ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR823",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR823",
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR42_95_1",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR42_1",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR12_95_2",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR12_2",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR42_95_2",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR42_2",
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_DISCONNECTOR12_95_1",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_DISCONNECTOR12_1",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR1122",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR1122",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR1123",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR1123",
+    "labels" : [ ]
+  }, {
+    "id" : "idBUSCO_95_VLsw_95_DISCONNECTOR41",
+    "vid" : "VL",
+    "componentType" : "BUS_CONNECTION",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "vid" : "VL",
+    "componentType" : "NODE",
+    "open" : false,
+    "vlabel" : false,
+    "labels" : [ ]
+  }, {
+    "id" : "idVLsw_95_BREAKER12",
+    "vid" : "VL",
+    "componentType" : "BREAKER",
+    "open" : false,
+    "vlabel" : false,
+    "equipmentId" : "VLsw_BREAKER12",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR220",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR220",
+    "labels" : [ ]
+  }, {
+    "id" : "idNEW_95_DISCONNECTOR421",
+    "vid" : "VL",
+    "componentType" : "DISCONNECTOR",
+    "open" : true,
+    "vlabel" : false,
+    "equipmentId" : "NEW_DISCONNECTOR421",
+    "labels" : [ ]
+  } ],
+  "wires" : [ {
+    "id" : "_95_VL_95_VLbbs12_95_VLsw_95_DISCONNECTOR12_95_1",
+    "nodeId1" : "idVLbbs12",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR12_95_1",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR9_95_INTERNAL_95_VL_95_23",
+    "nodeId1" : "idNEW_95_DISCONNECTOR9",
+    "nodeId2" : "idINTERNAL_95_VL_95_23",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41_95_VLsw_95_DISCONNECTOR41",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER12_95_VLsw_95_DISCONNECTOR12_95_2",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR12_95_2",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs22_95_VLsw_95_DISCONNECTOR22_95_1",
+    "nodeId1" : "idVLbbs22",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR22_95_1",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR11_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR11",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41_95_BUSCO_95_VLsw_95_DISCONNECTOR41",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs32_95_VLsw_95_DISCONNECTOR32_95_1",
+    "nodeId1" : "idVLbbs32",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR32_95_1",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER22_95_VLsw_95_DISCONNECTOR22_95_2",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR22_95_2",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER32_95_VLsw_95_DISCONNECTOR32_95_2",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR32_95_2",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR421_95_VLbbs12",
+    "nodeId1" : "idNEW_95_DISCONNECTOR421",
+    "nodeId2" : "idVLbbs12",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR6_95_INTERNAL_95_VL_95_21",
+    "nodeId1" : "idNEW_95_DISCONNECTOR6",
+    "nodeId2" : "idINTERNAL_95_VL_95_21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR1122_95_VLbbs43",
+    "nodeId1" : "idNEW_95_DISCONNECTOR1122",
+    "nodeId2" : "idVLbbs43",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR320_95_VLbbs41",
+    "nodeId1" : "idNEW_95_DISCONNECTOR320",
+    "nodeId2" : "idVLbbs41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR31_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR31",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER42_95_VLsw_95_DISCONNECTOR42_95_2",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR42_95_2",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_20_95_NEW_95_DISCONNECTOR220",
+    "nodeId1" : "idINTERNAL_95_VL_95_20",
+    "nodeId2" : "idNEW_95_DISCONNECTOR220",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21_95_BUSCO_95_VLsw_95_DISCONNECTOR21",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs42_95_VLsw_95_DISCONNECTOR42_95_1",
+    "nodeId1" : "idVLbbs42",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR42_95_1",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR41_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR41",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR22_95_1_95_INTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR22_95_1",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31_95_BUSCO_95_VLsw_95_DISCONNECTOR31",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR21_95_VLbbs22",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR21",
+    "nodeId2" : "idVLbbs22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_21_95_NEW_95_DISCONNECTOR421",
+    "nodeId1" : "idINTERNAL_95_VL_95_21",
+    "nodeId2" : "idNEW_95_DISCONNECTOR421",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR32_95_1_95_INTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR32_95_1",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21_95_VLsw_95_DISCONNECTOR21",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR823_95_VLbbs13",
+    "nodeId1" : "idNEW_95_DISCONNECTOR823",
+    "nodeId2" : "idVLbbs13",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR21_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR21",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR922_95_VLbbs23",
+    "nodeId1" : "idNEW_95_DISCONNECTOR922",
+    "nodeId2" : "idVLbbs23",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR1022_95_VLbbs33",
+    "nodeId1" : "idNEW_95_DISCONNECTOR1022",
+    "nodeId2" : "idVLbbs33",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_23_95_NEW_95_DISCONNECTOR1123",
+    "nodeId1" : "idINTERNAL_95_VL_95_23",
+    "nodeId2" : "idNEW_95_DISCONNECTOR1123",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR521_95_VLbbs22",
+    "nodeId1" : "idNEW_95_DISCONNECTOR521",
+    "nodeId2" : "idVLbbs22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR32_95_2_95_VLbbs33",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR32_95_2",
+    "nodeId2" : "idVLbbs33",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs11_95_BUSCO_95_VLsw_95_DISCONNECTOR11",
+    "nodeId1" : "idVLbbs11",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR11",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR220_95_VLbbs31",
+    "nodeId1" : "idNEW_95_DISCONNECTOR220",
+    "nodeId2" : "idVLbbs31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_BREAKER_35_0_95_INTERNAL_95_VL_95_23",
+    "nodeId1" : "idNEW_95_BREAKER_35_0",
+    "nodeId2" : "idINTERNAL_95_VL_95_23",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_BREAKER12_95_INTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "nodeId1" : "idVLsw_95_BREAKER12",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_BREAKER32_95_INTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "nodeId1" : "idVLsw_95_BREAKER32",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs32_95_NEW_95_DISCONNECTOR6",
+    "nodeId1" : "idVLbbs32",
+    "nodeId2" : "idNEW_95_DISCONNECTOR6",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR31_95_VLbbs32",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR31",
+    "nodeId2" : "idVLbbs32",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_22_95_NEW_95_DISCONNECTOR1022",
+    "nodeId1" : "idINTERNAL_95_VL_95_22",
+    "nodeId2" : "idNEW_95_DISCONNECTOR1022",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_BREAKER_95_INTERNAL_95_VL_95_21",
+    "nodeId1" : "idNEW_95_BREAKER",
+    "nodeId2" : "idINTERNAL_95_VL_95_21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_20_95_NEW_95_BREAKER",
+    "nodeId1" : "idINTERNAL_95_VL_95_20",
+    "nodeId2" : "idNEW_95_BREAKER",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER12_95_VLsw_95_BREAKER12",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "nodeId2" : "idVLsw_95_BREAKER12",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs31_95_BUSCO_95_VLsw_95_DISCONNECTOR31",
+    "nodeId1" : "idVLbbs31",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR42_95_2_95_VLbbs43",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR42_95_2",
+    "nodeId2" : "idVLbbs43",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR1023_95_VLbbs33",
+    "nodeId1" : "idNEW_95_DISCONNECTOR1023",
+    "nodeId2" : "idVLbbs33",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs21_95_BUSCO_95_VLsw_95_DISCONNECTOR21",
+    "nodeId1" : "idVLbbs21",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31_95_VLsw_95_DISCONNECTOR31",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR41_95_VLbbs42",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR41",
+    "nodeId2" : "idVLbbs42",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_20_95_NEW_95_DISCONNECTOR320",
+    "nodeId1" : "idINTERNAL_95_VL_95_20",
+    "nodeId2" : "idNEW_95_DISCONNECTOR320",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR120_95_VLbbs21",
+    "nodeId1" : "idNEW_95_DISCONNECTOR120",
+    "nodeId2" : "idVLbbs21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR12_95_1_95_INTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR12_95_1",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER12",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR12_95_2_95_VLbbs13",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR12_95_2",
+    "nodeId2" : "idVLbbs13",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs41_95_BUSCO_95_VLsw_95_DISCONNECTOR41",
+    "nodeId1" : "idVLbbs41",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_23_95_NEW_95_DISCONNECTOR823",
+    "nodeId1" : "idINTERNAL_95_VL_95_23",
+    "nodeId2" : "idNEW_95_DISCONNECTOR823",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs11_95_NEW_95_DISCONNECTOR0",
+    "nodeId1" : "idVLbbs11",
+    "nodeId2" : "idNEW_95_DISCONNECTOR0",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_20_95_NEW_95_DISCONNECTOR120",
+    "nodeId1" : "idINTERNAL_95_VL_95_20",
+    "nodeId2" : "idNEW_95_DISCONNECTOR120",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER42_95_VLsw_95_BREAKER42",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "nodeId2" : "idVLsw_95_BREAKER42",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR21_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR21",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR21",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR31_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR31",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR31",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_21_95_NEW_95_DISCONNECTOR521",
+    "nodeId1" : "idINTERNAL_95_VL_95_21",
+    "nodeId2" : "idNEW_95_DISCONNECTOR521",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR11_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR11",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER32_95_VLsw_95_BREAKER32",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER32",
+    "nodeId2" : "idVLsw_95_BREAKER32",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_21_95_NEW_95_DISCONNECTOR721",
+    "nodeId1" : "idINTERNAL_95_VL_95_21",
+    "nodeId2" : "idNEW_95_DISCONNECTOR721",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR22_95_2_95_VLbbs23",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR22_95_2",
+    "nodeId2" : "idVLbbs23",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR721_95_VLbbs42",
+    "nodeId1" : "idNEW_95_DISCONNECTOR721",
+    "nodeId2" : "idVLbbs42",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR41_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR41",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR41",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR0_95_INTERNAL_95_VL_95_20",
+    "nodeId1" : "idNEW_95_DISCONNECTOR0",
+    "nodeId2" : "idINTERNAL_95_VL_95_20",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_DISCONNECTOR42_95_1_95_INTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "nodeId1" : "idVLsw_95_DISCONNECTOR42_95_1",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11_95_BUSCO_95_VLsw_95_DISCONNECTOR11",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "nodeId2" : "idBUSCO_95_VLsw_95_DISCONNECTOR11",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_22_95_NEW_95_BREAKER_35_0",
+    "nodeId1" : "idINTERNAL_95_VL_95_22",
+    "nodeId2" : "idNEW_95_BREAKER_35_0",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_22_95_NEW_95_DISCONNECTOR922",
+    "nodeId1" : "idINTERNAL_95_VL_95_22",
+    "nodeId2" : "idNEW_95_DISCONNECTOR922",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_23_95_NEW_95_DISCONNECTOR1023",
+    "nodeId1" : "idINTERNAL_95_VL_95_23",
+    "nodeId2" : "idNEW_95_DISCONNECTOR1023",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_BREAKER22_95_VLsw_95_BREAKER22",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "nodeId2" : "idVLsw_95_BREAKER22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs13_95_NEW_95_DISCONNECTOR8",
+    "nodeId1" : "idVLbbs13",
+    "nodeId2" : "idNEW_95_DISCONNECTOR8",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR8_95_INTERNAL_95_VL_95_22",
+    "nodeId1" : "idNEW_95_DISCONNECTOR8",
+    "nodeId2" : "idINTERNAL_95_VL_95_22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11_95_VLsw_95_DISCONNECTOR11",
+    "nodeId1" : "idINTERNAL_95_VL_95_VLsw_95_DISCONNECTOR11",
+    "nodeId2" : "idVLsw_95_DISCONNECTOR11",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_BREAKER22_95_INTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "nodeId1" : "idVLsw_95_BREAKER22",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER22",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLsw_95_BREAKER42_95_INTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "nodeId1" : "idVLsw_95_BREAKER42",
+    "nodeId2" : "idINTERNAL_95_VL_95_VLsw_95_BREAKER42",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_BUSCO_95_VLsw_95_DISCONNECTOR11_95_VLbbs12",
+    "nodeId1" : "idBUSCO_95_VLsw_95_DISCONNECTOR11",
+    "nodeId2" : "idVLbbs12",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_VLbbs23_95_NEW_95_DISCONNECTOR9",
+    "nodeId1" : "idVLbbs23",
+    "nodeId2" : "idNEW_95_DISCONNECTOR9",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_NEW_95_DISCONNECTOR1123_95_VLbbs43",
+    "nodeId1" : "idNEW_95_DISCONNECTOR1123",
+    "nodeId2" : "idVLbbs43",
+    "straight" : false,
+    "snakeLine" : false
+  }, {
+    "id" : "_95_VL_95_INTERNAL_95_VL_95_22_95_NEW_95_DISCONNECTOR1122",
+    "nodeId1" : "idINTERNAL_95_VL_95_22",
+    "nodeId2" : "idNEW_95_DISCONNECTOR1122",
+    "straight" : false,
+    "snakeLine" : false
+  } ],
+  "lines" : [ ],
+  "feederInfos" : [ ],
+  "electricalNodeInfos" : [ ],
+  "busInfos" : [ ],
+  "layoutParams" : {
+    "voltageLevelPadding" : {
+      "left" : 20.0,
+      "top" : 60.0,
+      "right" : 20.0,
+      "bottom" : 60.0
+    },
+    "diagramPadding" : {
+      "left" : 20.0,
+      "top" : 20.0,
+      "right" : 20.0,
+      "bottom" : 20.0
+    },
+    "verticalSpaceBus" : 25.0,
+    "horizontalBusPadding" : 20.0,
+    "cellWidth" : 50.0,
+    "externCellHeight" : 250.0,
+    "internCellHeight" : 40.0,
+    "stackHeight" : 30.0,
+    "showGrid" : false,
+    "tooltipEnabled" : false,
+    "showInternalNodes" : false,
+    "scaleFactor" : 1.0,
+    "drawStraightWires" : false,
+    "horizontalSnakeLinePadding" : 20.0,
+    "verticalSnakeLinePadding" : 25.0,
+    "feederInfosOuterMargin" : 20.0,
+    "spaceForFeederInfos" : 50.0,
+    "diagramName" : null,
+    "avoidSVGComponentsDuplication" : false,
+    "adaptCellHeightToContent" : true,
+    "maxComponentHeight" : 12.0,
+    "minSpaceBetweenComponents" : 15.0,
+    "minExternCellHeight" : 80.0,
+    "labelCentered" : false,
+    "labelDiagonal" : false,
+    "angleLabelShift" : 15.0,
+    "highlightLineState" : true,
+    "addNodesInfos" : false,
+    "feederInfoSymmetry" : false,
+    "cssLocation" : "INSERTED_IN_SVG",
+    "svgWidthAndHeightAdded" : false,
+    "useName" : false,
+    "feederInfosIntraMargin" : 10.0,
+    "busInfoMargin" : 0.0,
+    "busbarsAlignment" : "FIRST",
+    "feederInfoPrecision" : 0,
+    "componentsOnBusbars" : [ "DISCONNECTOR" ]
+  }
+}
